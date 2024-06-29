@@ -1,0 +1,27 @@
+.context {
+    z-index: 3;
+    background: #5f5151;
+    position: absolute;
+    display: none;
+}
+
+.context_visible {
+    display: flex;
+}
+
+.context__content {
+    z-index: 12;
+    position: fixed;
+    background: rgb(220, 216, 216);
+}
+.context__item {
+    display: flex;
+    gap: 4px;
+    color: #222222;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+.context__item:hover {
+    color: #fff;
+    background: #3f4847;
+}

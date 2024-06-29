@@ -1,0 +1,17 @@
+.input {
+    overflow: visible;
+    background-color: transparent;
+    padding: 2px;
+    margin: 0;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 0;
+    outline: none;
+    min-height: 48px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.input:focus {
+    border-color: darkgreen;
+}
